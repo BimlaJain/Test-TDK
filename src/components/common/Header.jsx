@@ -34,7 +34,7 @@ const Header = () => {
                 <div className='container bg-blue lg:py-6 flex justify-between'>
                     <div className={`flex bg-blue gap-6 max-lg:flex-col max-lg:justify-center max-lg:items-center ${open ? 'max-lg:z-10 max-lg:translate-x-0 max-lg:bg-black max-lg:fixed max-lg:top-0 max-lg:left-0 max-lg:h-full max-lg:w-full justify-between items-center' : 'max-lg:-left-full max-lg:hidden'}`}>
                         {HeaderList.map((obj, i) => (
-                            <div className='pt-4' key={i}>
+                            <div className='pt-5' key={i}>
                                 <ul>
                                     <li className='flex gap-1 flex-row justify-center items-center relative after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-0 after:h-0.5 after:bg-white pb-0.5'>
                                         <a onClick={closeNavbar} href={obj.link} className='text-[13px] font-normal text-white'>{obj.item}</a>
