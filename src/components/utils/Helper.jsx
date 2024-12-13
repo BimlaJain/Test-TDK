@@ -20,7 +20,7 @@ export const HeaderList = [
         link: "/menu-five"
     },
 ];
-export const sliderImages = [
+export const SliderImages = [
     './assets/images/webp/slider-car1.webp',
     './assets/images/webp/slider-car3.webp',
     './assets/images/webp/slider-car4.webp',
