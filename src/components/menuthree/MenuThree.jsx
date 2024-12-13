@@ -2,8 +2,8 @@ import React from 'react'
 
 const Menuthree = () => {
     return (
-        <div>
-            <h2 className='flex justify-center items-center text-6xl'>coming soon</h2>
+        <div className='min-h-screen flex justify-center'>
+            <h2 className='flex justify-center items-center text-8xl font-bold'>coming soon</h2>
         </div>
     )
 }
